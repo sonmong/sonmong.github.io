@@ -1,0 +1,204 @@
+/* Add your CSS code here */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f9fa;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  width: auto;
+  padding-left: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.site-nav {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+color:#000000
+}
+.faq p {
+  display: none;
+}
+/* Gallery styles */
+.gallery {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.gallery .slides img {
+  width: 100%;
+  height: auto;
+}
+
+.site-header {
+  background-color: #85167c;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.site-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.site-nav li {
+  margin: 0 10px;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-section {
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+  color: #85167c;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+
+.gallery-section {
+  padding: 30px 0;
+}
+
+.our-services-section {
+  padding: 50px 0;
+}
+
+.faq-section {
+  padding: 30px 0;
+}
+
+.contact-section {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.our-farm-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+
+/* Our Services Section */
+.our-services-section h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #85167c;
+}
+
+section {
+  margin-top: 20px; /* Adjust the value to reduce the gap at the top */
+  margin-bottom: 20px; /* Adjust the value to reduce the gap at the bottom */
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  margin-bottom: 2rem;
+}
+
+.service-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* FAQ Section */
+.faq-section h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #85167c;
+}
+
+.faq {
+  margin-bottom: 2rem;
+}
+
+.faq h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq p:last-child {
+  margin-bottom: 1rem;
+}
+
+.site-footer {
+  background-color: #85167c;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 30px;
+}
+.row{
+  color:#f8f9fa;
+}
+
+.contact-form {
+  color:#f8f9fa;
+}
